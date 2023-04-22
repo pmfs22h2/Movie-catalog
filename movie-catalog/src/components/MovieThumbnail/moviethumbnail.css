@@ -1,0 +1,14 @@
+.movies img {
+  max-width: 100%;
+}
+.thumbnail {
+  max-width: 300px;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s all;
+}
+
+.thumbnail:hover {
+  transform: scale(108%);
+}
+

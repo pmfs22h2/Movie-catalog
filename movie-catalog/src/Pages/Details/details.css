@@ -1,0 +1,17 @@
+.movie-details {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.movie-details img {
+  max-width: 500px;
+}
+.movie-details div {
+  font-size: 2em;
+  min-width: fit-content;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 2rem;
+}

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { TRENDING_URL } from "../../constants/constants"
 import MovieThumbnail from "../../components/MovieThumbnail/MovieThumbnail";
-
+import './home.css'
 export default function Home() {
 
     const [movieList, setMovieList] = useState({
@@ -25,7 +25,7 @@ export default function Home() {
     return (
         <div>
             <h1>Movies</h1>
-            <div>
+            <div className="movies">
                 {movieList.results.map(movie => <MovieThumbnail key={movie.id} movieData={movie} />)}
             </div>
         </div>

@@ -1,7 +1,8 @@
 
-
+export const API_KEY = "bc51ee0e27700795691afda7a2cfa061"
+export const BASE_URL = "https://api.themoviedb.org/3"
 export const TRENDING_URL = "https://api.themoviedb.org/3/trending/all/day?api_key=bc51ee0e27700795691afda7a2cfa061"
-
+export const MOVIES_URL = "https://api.themoviedb.org/3/movie/{movie_id}?api_key=bc51ee0e27700795691afda7a2cfa061&language=en-US"
 
 /*
 
