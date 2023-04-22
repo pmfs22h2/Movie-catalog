@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { BASE_URL,API_KEY, } from "../../constants/constants";
 import './details.css'
 
@@ -9,7 +9,6 @@ export default function Details() {
 
   const { id } = useParams();
   
-  const navigate = useNavigate()
 
   const getData = async () => {
 
