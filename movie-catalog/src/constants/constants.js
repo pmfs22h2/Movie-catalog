@@ -1,9 +1,9 @@
-
-export const API_KEY = "bc51ee0e27700795691afda7a2cfa061"
-export const BASE_URL = "https://api.themoviedb.org/3"
-export const TRENDING_URL = "https://api.themoviedb.org/3/trending/all/day?api_key=bc51ee0e27700795691afda7a2cfa061"
-export const MOVIES_URL = "https://api.themoviedb.org/3/movie/{movie_id}?api_key=bc51ee0e27700795691afda7a2cfa061&language=en-US"
-export const SEARCH_URL = "https://api.themoviedb.org/3/search/movie?api_key=bc51ee0e27700795691afda7a2cfa061&query="
+// előző api keyhez tartozó accot töröltem, majd kell csinálni egy újat 
+export const API_KEY = ""
+export const BASE_URL = `https://api.themoviedb.org/3`
+export const TRENDING_URL = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`
+export const MOVIES_URL = `https://api.themoviedb.org/3/movie/{movie_id}?api_key=${API_KEY}&language=en-US`
+export const SEARCH_URL = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`
 
 /*
 
